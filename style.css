@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("mbg.jpg");
+    background-size: cover;
+} 
+.container{
+    width: auto;
+    height: auto;
+    padding: 70px; 
+    border: 1px solid rgb(255, 255, 255);
+    align-content: center;
+    margin-top: auto;
+    background-color: rgb(7, 37, 63);
+    text-align: center;
+    border-radius: 8px;
+    background: border-box;
+    background-size: cover ;
+}
+#headline{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    background-size: cover;
+}
+#headline:hover{
+    color: rgb(6, 214, 127);
+    background-image: url("");
+    background: border-box;
+}
+#Number01{
+    background: border-box;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 0);
+    font-weight: bold;
+    font-size: medium;
+}
+#Number01:hover{
+    border: 1px solid white;
+    
+}
+#Number02{
+    background: border-box;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 12px;
+    border: 1px solid rgb(255, 255, 0);
+    font-weight: bold;
+    font-size: medium;
+}
+#Number02:hover{
+    border: 1px solid white;
+}
+#btn_adition_onAction {
+    background: border-box;
+    color: rgb(255, 255, 255);
+    margin-left: 8px;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid rgb(4, 247, 255);
+}
+#btn_adition_onAction:hover{
+    border: 1px solid white;
+}
+#btn_subtracting_onAction {
+    background: border-box;
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid rgb(4, 247, 255);
+}
+#btn_subtracting_onAction:hover {
+    border: 1px solid white;
+}
+#btn_multiplication_onAction {
+    background: border-box;
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid rgb(4, 247, 255);
+}
+#btn_multiplication_onAction:hover {
+    border: 1px solid white;
+}
+#btn_division_onAction {
+    background: border-box;
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid rgb(4, 247, 255);
+}
+#btn_division_onAction:hover {
+    border: 1px solid white;
+}
+#lbl_output{
+    background: border-box;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 100;
+    padding: 5px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(14, 211, 31);
+    
+}
+#lbl_output:hover {
+    border: 1px solid white;
+}
+#madeby{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
